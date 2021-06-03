@@ -4,13 +4,13 @@
   "description": "## Purpose The page allows a business to add/modify/delte employees using the command line.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mandahos/employee-tracker.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/mandahos/employee-tracker#readme",
   "dependencies": {
-    "mysql2": "^2.2.5",
-    "node": "^14.16.1"
+    "console.table": "^0.10.0",
+    "inquirer": "^8.1.0",
+    "mysql2": "^2.2.5"
   }
 }
